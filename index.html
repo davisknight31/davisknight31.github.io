@@ -19,7 +19,7 @@
         <p id="name">Davis Knight</p>
 
         <p id="designation">
-          Student<br /><span id="college"
+          <class id="bold">Student</class><br /><span id="college"
             >Ball State University, Muncie, Indiana</span
           >
         </p>
@@ -30,11 +30,13 @@
           <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
         </div>
         <p id="email">
-          <strong>Email</strong><br />
+          <class id="bold">Email</class><br />
           davis.knight@bsu.edu<br />davisknight7@gmail.com >
         </p>
 
-        <p id="telephone"><strong>Telephone</strong><br />(317) 775-8889</p>
+        <p id="telephone">
+          <class id="bold">Telephone</class><br />(317) 775-8889
+        </p>
       </div>
       <div id="info-cards">
         <div class="card">
@@ -43,9 +45,55 @@
           <ul>
             <li>
               <p class="tags">The Perfect Bet</p>
+              <p>
+                This was a program completely focused on sports betting. The
+                project started off just focusing on NFL games, and would update
+                week to week with current matchups. A free sports betting API
+                was used to get the matchups, as well as the odds for each game.
+                The user was able to select a matchup from a list of games, and
+                enter a bet amount on one team. Using the odds, and the amount
+                placed, the program would calculate their potential winnings. In
+                later iterations, NBA and NHL games were added. A feature was
+                also added that allowed the user to select certain important
+                statistics from a specific sport. The selected statistics for
+                the selected team would display which allowed the user to make a
+                more informed bet. There was a heavy emphasis placed on unit
+                testing in this project using JUnit, and JavaFX was used to
+                create the GUI. This project was a 10+ week project during my
+                second year.
+              </p>
+              <p>
+                <a
+                  href="https://github.com/davisknight7/ThePerfectBet-Backup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><u>Repository</u></a
+                ><br /><br />Note that this is a backup repository which simply
+                holds the original files. The original repository was deleted by
+                the professor at the end of the semester.
+              </p>
             </li>
-            <li><p class="tags">Wiki article getter</p></li>
-            <li><p class="tags">Art coloring</p></li>
+            <li>
+              <p class="tags">Wiki article getter</p>
+              <p>
+                This was a short, few week project, which simply used an API to
+                get the recent edits/additions to a Wikipedia article. It
+                displayed the timestamp of the edit, and the author. JavaFX was
+                used to create the GUI which displayed the changes.
+              </p>
+            </li>
+            <li>
+              <p class="tags">Art coloring</p>
+              <p>
+                This was a project during my first year. It was a simple Python
+                program, which took an image file as input. Multiple functions
+                were created which applied various filters to the image. A
+                couple of examples of said filters were a color inverting filter
+                and a filter which horizontally flipped a section of the image.
+                The end results of the edited image were displayed in a small
+                art show for the Freshman.
+              </p>
+            </li>
           </ul>
         </div>
         <div class="card">
@@ -137,6 +185,8 @@
               <p class="tags">
                 Technologies<br />
                 <span>Aurelia<br /></span>
+                <span>JavaFX<br /></span>
+                <span>JUnit<br /></span>
                 <span>Light experience with .NET Core<br /></span>
                 <span>Light experience with Entity Framework<br /></span>
                 <span>Light experience with PostgreSQL</span>
