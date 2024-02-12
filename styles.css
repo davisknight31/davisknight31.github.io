@@ -15,7 +15,7 @@ hr {
 }
 #bold {
   color: rgb(254, 255, 195);
-  font-size: 18px;
+  font-size: 24px;
 }
 
 #profile {
@@ -84,13 +84,14 @@ hr {
   font-family: "Open Sans", sans-serif;
 }
 
+#socials,
 #college,
 #email,
 #high-school,
 #more-about,
 #telephone {
   color: white;
-  font-size: 13.5px;
+  font-size: 18px;
 }
 strong,
 span {
@@ -157,11 +158,12 @@ span {
   cursor: pointer;
 }
 
-.card > ul {
+ul {
   color: white;
   list-style-type: none;
   margin-right: 50px;
 }
+
 .card > ul > li > p {
   margin-right: 50px;
 }
@@ -202,3 +204,5 @@ ol {
   list-style-type: disc;
   color: blue;
 }
+
+/* push */

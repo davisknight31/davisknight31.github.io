@@ -5,7 +5,6 @@
     <title>Davis Knight CV</title>
   </head>
   <body>
-    <div id="inner-nav"></div>
     <div id="container">
       <div id="profile">
         <div id="image">
@@ -26,15 +25,29 @@
         <hr width="100%" />
         <div id="about">
           <p style="display: inline">Personal Information</p>
-          <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
         </div>
         <p id="email">
-          <class id="bold">Email</class><br />
+          <div id="bold">Email</div><br />
           davis.knight@bsu.edu<br />davisknight7@gmail.com
         </p>
 
         <p id="telephone">
-          <class id="bold">Telephone</class><br />(317) 775-8889
+          <div id="bold">Phone</div><br />(317) 775-8889
+        </p>
+
+        <p id="socials">
+          <div id="bold">Social Media Links</div><br />
+          <a href="https://github.com/davisknight7"
+          target="_blank"
+          rel="noopener noreferrer">
+          <u id="socials">Github &lpar;School Account&rpar;</u><br>
+          <!-- <u>Github &lpar;Personal Account&rpar;</u><br> -->
+        </a>
+        <a href="https://www.linkedin.com/in/davis-knight-a3252b29b/"
+          target="_blank"
+          rel="noopener noreferrer">
+          <u id="socials">LinkedIn</u>
+          </a>
         </p>
       </div>
       <div id="info-cards">
@@ -43,7 +56,34 @@
           <p class="projects"></p>
           <ul>
             <li>
-              <p class="tags">The Perfect Bet</p>
+              <p class="tags"><u>Subscription Manager</u></p>
+              <p>
+                This is my Senior Year Capstone Project. This was done for a client, <a href="https://moneytree.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <u >Moneytree</u></a>. Part of <a href="https://moneytree.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <u >Accutech</u></a>. The project is written using VueJS for the frontend framework, with an ASP.Net Web API for the backend. I signed an NDA before working on this project, so I cannot link any code. But, I can describe it as best as possible.</p>
+                The project consists of three parts:
+                <ul>
+                  <li>A Bulk Signup Software</li>
+                  <li>A Subscription Manager Dashboard Software</li>
+                  <li>A User Onboarding Software</li>
+                </ul>
+                <p>The Bulk Signup Software is a solution to companies having to submit a form for every individual they want to signup for Moneytree products. It allows the user to dynamically add and fillout as many signups as they want (to the limit of 20).
+                  This allows the user to fill out payment information only one time. This signup information is submitted to a thirdparty service, <a href="https://www.maxio.com/chargify" target="_blank"rel="noopener noreferrer"><u >Maxio</u></a>,
+                  which handles their product subscriptions. </p>
+                <p>The Susbcription Manager Dashboard is a software which exists under each of Moneytree's different prodcts, with a dashboard specifically written for each product. The dashboard pulls relevant information about the signed in customer,
+                  as well as relevant information for the product they are signed into. The user can view all information, update their billing/personal information, and view/pay invoices.
+                </p>
+                <p>The User Onboarding Software is a software which asks the user multiple questions when they are signing up, granting Moneytree more information to taylor their experience too.</p>
+                <p>All of the information gathered/pulled in this project was gotten from or store in Maxio.</p>
+                <p>I took most of the lead on this project, by planning meetings with the team/client each week, and also encouraging communication between team members. I also planned out each iteration.</p>
+              </p>
+            </li>
+            <li>
+              <p class="tags"><u>The Perfect Bet</u></p>
               <p>
                 This was a program completely focused on sports betting. The
                 project started off just focusing on NFL games, and would update
@@ -51,7 +91,9 @@
                 was used to get the matchups, as well as the odds for each game.
                 The user was able to select a matchup from a list of games, and
                 enter a bet amount on one team. Using the odds, and the amount
-                placed, the program would calculate their potential winnings. In
+                placed, the program would calculate their potential winnings. 
+                </p>
+                <p>In
                 later iterations, NBA and NHL games were added. A feature was
                 also added that allowed the user to select certain important
                 statistics from a specific sport. The selected statistics for
@@ -73,7 +115,7 @@
               </p>
             </li>
             <li>
-              <p class="tags">Wikipedia Article Edits Displayer</p>
+              <p class="tags"><u>Wikipedia Article Edits Displayer</u></p>
               <p>
                 This was a short, few week project, which simply used an API to
                 get the recent edits/additions to a Wikipedia article. It
@@ -82,7 +124,7 @@
               </p>
             </li>
             <li>
-              <p class="tags">Image Filter Project</p>
+              <p class="tags"><u>Image Filter Project</u></p>
               <p>
                 This was a project during my first year. It was a simple Python
                 program, which took an image file as input. Multiple functions
@@ -105,8 +147,8 @@
               <p class="tags">
                 Ball State University<br /><span
                   >Current Senior | Bachelor's of Computer Science | Expected
-                  Graduation: May, 2024</span
-                >
+                  Graduation: May, 2024 | 3.8 GPA </span>
+                
               </p>
               <a class="edit" href="#"
                 ><i class="fas fa-pen stroke-transparent-blue"></i
@@ -115,12 +157,11 @@
             <li>
               <p class="tags">
                 Mt. Vernon High School<br /><span
-                  >Fortville, Indiana | Graduated: May, 2020</span
+                  >Fortville, Indiana | Graduated: May 2020</span
                 >
               </p>
               <a class="edit" href="#"
-                ><i class="fas fa-pen stroke-transparent-blue"></i
-              ></a>
+                ></a>
             </li>
           </ul>
         </div>
@@ -134,7 +175,7 @@
               <p class="tags">
                 Venminder<br /><span
                   >Software Development Intern |
-                  <span>May, 2023 - Current</span></span
+                  <span>May, 2023 - November 2023</span></span
                 >
               </p>
               <a class="edit" href="#"
@@ -145,7 +186,7 @@
               <p class="tags">
                 Dick's Sporting Goods<br /><span
                   >Customer Service Specialist |
-                  <span>August, 2021 - January, 2022</span></span
+                  <span>August 2021 - January 2022</span></span
                 >
               </p>
               <a class="edit" href="#"
@@ -156,7 +197,7 @@
               <p class="tags">
                 Papa Murphy's<br /><span
                   >Cashier, Cook, Prep |
-                  <span>September, 2018 - July, 2020</span></span
+                  <span>September, 2018 - July 2020</span></span
                 >
               </p>
               <a class="edit" href="#"
@@ -165,30 +206,27 @@
             </li>
           </ul>
         </div>
-
+<!-- push -->
         <div class="card">
           <p>
-            <i class="fas fa-graduation-cap stroke-transparent"></i
-            >&nbsp;&nbsp;&nbsp;Technical Skills
+            &nbsp;&nbsp;&nbsp;Technical Skills
           </p>
           <ul>
             <li>
               <p class="tags">
                 Programming Languages<br />
-                <span>Java<br /></span>
-                <span>HTML/CSS/JavaScript<br /></span>
+                <span>HTML/CSS/Javascript/Typescript<br /></span>
                 <span>C#<br /></span>
+                <span>Java<br /></span>
               </p>
             </li>
             <li>
               <p class="tags">
-                Technologies<br />
+                Frameworks<br />
+                <span>VueJS<br /></span>
+                <span>Angular<br /></span>
                 <span>Aurelia<br /></span>
-                <span>JavaFX<br /></span>
-                <span>JUnit<br /></span>
-                <span>Light experience with .NET Core<br /></span>
-                <span>Light experience with Entity Framework<br /></span>
-                <span>Light experience with PostgreSQL</span>
+                <span>.NET<br /></span>
               </p>
             </li>
             <li>
@@ -198,8 +236,39 @@
                 <span>Intellij IDEA</span>
               </p>
             </li>
+            <li>
+              <p class="tags">
+                Other<br />
+                <span>DevOps<br /></span>
+                <span>Project Management Fundamentals<br /></span>
+                <span>PostgreSQL<br/></span>
+                <span>Light experience with Entity Framework<br /></span>
+              </p>
+            </li>
           </ul>
         </div>
+
+        <!-- <div class="card">
+          <p>
+            &nbsp;&nbsp;&nbsp;Soft Skills
+          </p>
+          <ul>
+            <li>
+              <p class="tags">
+                Leadership
+              </p>
+              <p class="tags">
+                Communication
+              </p>
+              <p class="tags">
+                Time Management
+              </p>
+              <p class="tags">
+                Programming Languages
+              </p>
+            </li>
+          </ul>
+        </div> -->
         <div class="card">
           <p>
             <i class="fas fa-graduation-cap stroke-transparent"></i
@@ -233,8 +302,7 @@
                 <span
                   >Working out is one of my favorite past times. It is very
                   relaxing to me and extremely helpful mentally. I lift weights
-                  5+ times a week, and I am currently training to run an 8k, so
-                  I run 4 times a week as well.</span
+                  5+ times a week, and also run consistently.</span
                 >
               </p>
             </li>
@@ -244,10 +312,8 @@
               <p class="tags">
                 Guitar<br />
                 <span
-                  >I recently picked up playing guitar last year and have really
-                  been enjoying it. Lately, I haven't had as much time to play
-                  as I would like, but my goal is to pick it back up after I
-                  graduate.</span
+                  >I picked up guitar in 2022 and have really
+                  been enjoying it. I don't practice as much as I would like to, but I always try and get a couple hours in each week</span
                 >
               </p>
             </li>
@@ -258,7 +324,7 @@
                 Other<br />
                 <span
                   >I have a few other hobbies I enjoy here and there. I really
-                  enjoy baking, and I try to bake something once a month. I
+                  enjoy baking, and I try to bake every so often. I
                   enjoy reading as well, and try to read a couple of books each
                   year.</span
                 >
